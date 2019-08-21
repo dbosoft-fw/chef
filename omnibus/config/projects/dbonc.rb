@@ -36,7 +36,7 @@ if windows?
   install_dir  "#{default_root}/opscode/#{name}"
   package_name "dbonc-client"
 else
-  install_dir "#{default_root}/#{name}"
+  install_dir "#{default_root}/dbosoft/#{name}"
 end
 
 override :chef, version: "local_source"
